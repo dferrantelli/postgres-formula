@@ -1,7 +1,7 @@
 postgres:
   pkg: postgresql
   pkg_dev: postgresql-devel
-  pkg_libpq_dev: postgresql-libs
+  pkg_libpq_dev: libpq-dev
   pkg_client: postgresql-client
   pkg_contrib: postgresql-contrib
   python: python-psycopg2
